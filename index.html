@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="slider-show">
+        <div class="img">
+           <div class="box" style="background-color: aqua; width: 100%;height: 100vh;">
+               <img src="img/103406_hd.jpg" alt="">
+           </div>
+           <div  class="box" style="background-color: fuchsia; width: 100%;height: 100vh;">
+        <img src="img/25176_hd.jpg" alt="">
+        </div>
+        <div  class="box" style="background-color: greenyellow; width: 100%;height: 100vh;">
+        <img src="img/25553_hd.jpg" alt="">
+        </div>
+        <div  class="box" style="background-color: red; width: 100%;height: 100vh;">
+       <img src="img/31189_hd.jpg" alt="">
+        </div>
+        </div>
+        <div class="slide-left" onclick="slide(-1)">
+            <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"
+                    class="bi bi-arrow-left-short" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5z" />
+                </svg>
+            </span>
+        </div>
+        <div class="slide-right" onclick="slide(1)">
+            <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"
+                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                </svg>
+            </span>
+        </div>
+        <div class="btn-slider">
+            <span onclick="btnSlide(1)"></span>
+            <span onclick="btnSlide(2)"></span>
+            <span onclick="btnSlide(3)"></span>
+            <span onclick="btnSlide(4)"></span>
+            <span onclick="btnSlide(5)"></span>
+        </div>
+
+    </div>
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
